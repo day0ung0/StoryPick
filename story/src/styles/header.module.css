@@ -1,0 +1,18 @@
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 1% 0 1% 0 ;
+    
+    font-family:'PyeongChang-Bold';
+    font-size: 1.5m; 
+
+    border-bottom: 1em ;
+}
+
+.teamName {
+    font-weight: bold;
+
+}

@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    
+
+ }
+.image {
+    width: 50px; 
+    height: auto; 
+ }
+ .imageDetail {
+    width: 150px;
+    height: auto;
+ }
