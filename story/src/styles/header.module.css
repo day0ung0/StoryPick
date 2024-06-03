@@ -1,18 +1,29 @@
+@font-face {
+    font-family: 'KCCChassam';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCChassam.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'KCCChassam', sans-serif; 
 
+}
 .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     margin: 1% 0 1% 0 ;
-    
-    font-family:'PyeongChang-Bold';
     font-size: 1.5m; 
-
     border-bottom: 1em ;
 }
 
 .teamName {
     font-weight: bold;
+    font-size:40px;
+    color:black;
 
+}
+.linkStyle {
+    text-decoration: none;
+    color: inherit;
 }

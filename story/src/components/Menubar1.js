@@ -11,11 +11,11 @@ function MenuBar1() {
     return (
         //상단
         <div className={styles.wrapper}>
-           <div><Link to="/major">전공 도서</Link></div>
-           <div><Link to="/normal">일반 도서</Link></div>
-            <div><Link to="/certification">자격증 도서</Link></div>
-            <div><Link to="/applyBook">서가에 없는 도서</Link></div>
-            <div><Link to="/login"><IoHome /></Link></div>
+           <div className={styles.menu}><Link to="/major"className={styles.linkStyle}>전공 도서</Link></div>
+           <div className={styles.menu}><Link to="/normal"className={styles.linkStyle}>일반 도서</Link></div>
+            <div className={styles.menu}><Link to="/certification"className={styles.linkStyle}>자격증 도서</Link></div>
+            <div className={styles.menu}><Link to="/applyBook"className={styles.linkStyle}>서가에 없는 도서</Link></div>
+            <div><Link to="/login"className={styles.linkStyle}><IoHome /></Link></div>
         </div>
     );
 }
